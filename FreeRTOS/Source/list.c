@@ -28,10 +28,10 @@
 
 #include <stdlib.h>
 #include "FreeRTOS.h"
-#include "list.h"
+#include "flist.h"
 
 /*-----------------------------------------------------------
- * PUBLIC LIST API documented in list.h
+ * PUBLIC LIST API documented in flist.h
  *----------------------------------------------------------*/
 
 void vListInitialise( List_t * const pxList )

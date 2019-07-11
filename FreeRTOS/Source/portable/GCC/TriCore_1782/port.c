@@ -38,7 +38,7 @@
 /* Kernel includes. */
 #include "FreeRTOS.h"
 #include "task.h"
-#include "list.h"
+#include "flist.h"
 
 #if configCHECK_FOR_STACK_OVERFLOW > 0
 	#error "Stack checking cannot be used with this port, as, unlike most ports, the pxTopOfStack member of the TCB is consumed CSA.  CSA starvation, loosely equivalent to stack overflow, will result in a trap exception."

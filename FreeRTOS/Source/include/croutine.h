@@ -32,7 +32,7 @@
 	#error "include FreeRTOS.h must appear in source files before include croutine.h"
 #endif
 
-#include "list.h"
+#include "flist.h"
 
 #ifdef __cplusplus
 extern "C" {
