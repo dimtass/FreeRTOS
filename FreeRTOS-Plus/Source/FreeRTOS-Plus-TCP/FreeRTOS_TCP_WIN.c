@@ -277,7 +277,7 @@ static portINLINE uint32_t ulTimerGetAge( TCPTimer_t *pxTimer )
 /*-----------------------------------------------------------*/
 
 /* _HT_ GCC (using the settings that I'm using) checks for every public function if it is
-preceded by a prototype. Later this prototype will be located in flist.h? */
+preceded by a prototype. Later this prototype will be located in list.h? */
 
 extern void vListInsertGeneric( List_t * const pxList, ListItem_t * const pxNewListItem, MiniListItem_t * const pxWhere );
 
